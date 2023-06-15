@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns:font-variant="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Information Screening whilst Exploiting! Multimodal Relation Extraction with Feature Denoising and Multimodal Topic Modeling</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/filter.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><i>Information Screening whilst Exploiting!</i> Multimodal Relation Extraction with Feature Denoising and Multimodal Topic Modeling</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://chocowu.github.io/">Shengqiong Wu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://haofei.vip/">Hao Fei</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/yixin-homepage/%E9%A6%96%E9%A1%B5">Yixin Cao</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://lidongbing.github.io/">Lidong Bing</a><sup>3</sup>,
+            </span>
+<!--            <span class="author-block">-->
+<!--              <a href="https://www.danbgoldman.com">Fei Li</a><sup>2</sup>,-->
+<!--            </span>-->
+            <span class="author-block">
+              <a href="https://www.chuatatseng.com/">Tat-Seng Chua</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Sea-NExT Joint Lab, National University of Singapore,</span><br>
+            <span class="author-block"><sup>2</sup>Singapore Management University,</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>DAMO Academy, Alibaba Group</span>&nbsp;&nbsp;
+<!--            <span class="author-block"><sup>4</sup>DAMO Academy, Alibaba Group</span>-->
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2305.11719.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2305.11719"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="./static/media/Paper_609.mp4"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/ChocoWu/MRE-ISE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Poster Link. -->
+              <span class="link-block">
+              <a href="./static/media/conference_poster_portrait_ACL23_MMRE.pdf" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <svg class="svg-inline--fa fa-chalkboard fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chalkboard" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 64h448v352h64V40c0-22.06-17.94-40-40-40H72C49.94 0 32 17.94 32 40v376h64V64zm528 384H480v-64H288v64H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z"></path></svg><!-- <i class="fas fa-chalkboard"></i> Font Awesome fontawesome.com -->
+                </span>
+                <span>Poster</span>
+              </a>
+            </span>
+
+              <!-- Dataset Link. -->
+<!--              <span class="link-block">-->
+<!--                <a href="https://github.com/google/nerfies/releases/tag/0.1"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="far fa-images"></i>-->
+<!--                  </span>-->
+<!--                  <span>Data</span>-->
+<!--                  </a>                -->
+<!--              </span>-->
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Existing research on multimodal relation extraction (MRE) faces two co-existing challenges, <i><b>internal-information over-utilization</b></i> and <i><b>external-information under-exploitation</b></i>.
+            To combat that, we propose a novel framework that simultaneously implements the idea of <i><b>internal-information screening</b></i> and <i><b>external-information exploiting</b></i>.
+            First, we represent the fine-grained semantic structures of the input image and text with the visual and textual scene graphs, which are further fused into a unified cross-modal graph (CMG).
+            Based on CMG, we perform structure refinement with the guidance of the graph information bottleneck principle, actively denoising the less-informative features.
+            Next, we perform topic modeling over the input image and text, incorporating latent multimodal topic features to enrich the contexts.
+            On the benchmark MRE dataset, our system outperforms the current best model significantly.
+            With further in-depth analyses, we reveal the great potential of our method for the MRE task.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Presentation</h2>
+        <div class="publication-video">
+          <video controls playsinline height="100%" width="100%">
+              <source src="./static/media/Paper_609.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper intro. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content has-text-justified">
+          <p >
+            Current methods fail to sufficiently harness the feature sources from two information perspectives, which hinder further MRE development:
+            <li><b>Internal-information over-utilization.</b>
+              Prior research shows that only parts of the texts are useful to the relation inference, and not all and always the visual sources play positive roles for MRE. <font color="#9900FF">A fine-grained feature screening over both the internal image and text features is needed</font>.
+            </li>
+          </p>
+          <p>
+            <li><b>External-information under-exploitation.</b>
+              Although compensating the texts with visual sources, there can be still information deficiency in MRE, in particular when the visual features serve less (or even negative) utility. <font color="#9900FF">More external semantic supplementary information should be exploited for MRE</font>.
+            </li>
+          </p>
+        </div>
+        <div class="publication-image">
+          <img width="80%" src="./static/images/intro.png">
+        </div>
+      </div>
+    </div>
+    <!--/ Paper intro. -->
+  </div>
+</section>
+
+
+
+<section class="section" style="margin-top: -20px">
+  <div class="container is-max-desktop">
+    <!-- Paper method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p >
+            We thus propose a novel framework for improving MRE, which consists of five parts:
+            <li><b>Scene Graph Generation.</b>
+              The model takes as input an image `I` and text `T`, as well as the subject `v_s` and object entity `v_o`. We represent `I` and `T` with the corresponding visual scene graph (VSG) and textual scene graph (TSG).
+            </li>
+            <li><b>Cross-modal Graph Construction.</b>
+              The VSG and TSG are assembled as a cross-modal graph (CMG), which is further modeled via a graph encoder.
+            </li>
+            <li><b>GIB-guided Feature Refinement.</b>
+              We perform GIB-guided feature refinement (<b>G</b><b style="font-size:14px">ENE</b>) over the CMG for internal-information screening, i.e., node filtering and edge adjusting, which results in a structurally compact backbone graph.
+            </li>
+            <li><b>Multimodal Topic Integration.</b>
+              The multimodal topic features induced from the latent multimodal topic model (<b>L</b><b style="font-size:14px">AMO</b>) are integrated into the previously obtained compressed feature representation for external-information exploitation via an attention operation.
+            </li>
+            <li><b>Inference.</b>
+               The decoder predicts the relation label `Y` based on the enriched features.
+            </li>
+          </p>
+        </div>
+        <div class="publication-image">
+          <img width="100%" src="./static/images/framework.png">
+        </div>
+
+      </div>
+    </div>
+    <!--/ Paper method. -->
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="section" style="margin-top: 0px">
+  <div class="container is-max-desktop">
+    <!-- Paper Experiment. -->
+    <div class="columns is-centered has-text-centered">
+
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiment</h2>
+          <p style="text-align:left">
+            <b>Experimental results.</b>  Here are the main results, ablation study and some analyses:
+          </p><br>
+        <div class="publication-image">
+          <center><img width="100%" src="./static/images/results.png"></center>
+        </div>
+        <br>
+
+      <div class="column is-four-fifths" style="width: 100%" >
+          <p style="text-align:left">
+            <b>Multimodal topic-keywords.</b> Here are some textual and visual topic-keywords induced by the latent multimodal topic model (<b>L</b><b style="font-size:14px">AMO</b>).
+          </p><br>
+        <div class="publication-image">
+          <center><img width="100%" src="./static/images/topic-key-words.png"></center>
+        </div>
+        </div>
+      </div>
+      </div>
+    <!--/ Paper Experiment. -->
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper poster. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Poster</h2>
+        <div class="publication-image">
+          <object data="./static/media/conference_poster_portrait_ACL23_MMRE.pdf" type="application/pdf" width="100%" height="1120px"></object>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper poster. -->
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{WUAcl23MMRE,
+  author    = {Shengqiong Wu, Hao Fei, Yixin Cao, Lidong Bing, Tat-Seng Chua},
+  title     = {Information Screening whilst Exploiting! Multimodal Relation Extraction with Feature Denoising and Multimodal Topic Modeling},
+  journal   = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+<!--    <div class="content has-text-centered">-->
+<!--      <a class="icon-link"-->
+<!--         href="./static/videos/nerfies_paper.pdf">-->
+<!--        <i class="fas fa-file-pdf"></i>-->
+<!--      </a>-->
+<!--      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>-->
+<!--        <i class="fab fa-github"></i>-->
+<!--      </a>-->
+<!--    </div>-->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website template credit to <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>,
+            licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 License</a>.
+          </p>
+<!--          <p>-->
+<!--            This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,-->
+<!--            we just ask that you link back to this page in the footer.-->
+<!--            Please remember to remove the analytics code included in the header of the website which-->
+<!--            you do not want on your website.-->
+<!--          </p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
